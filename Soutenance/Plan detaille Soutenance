@@ -1,0 +1,42 @@
+------------ I ~ Problematique et jeu de donnees ------------
+
+- Slide 3 : Presentation Problematique et Entreprise
+- Slide 4 : Contraintes : Scalable et Cloud
+- Slide 5 : Jeu de Donnee : Images, beaucoup
+- Slide 6 : Limite dans notre cadre : prix AWS, nombre d'images
+- Slide 7 : Solutions : script python pyspark sur EC2 en lien avec S3 [diagramme]
+
+------------ II ~ Architecture Big Data dans le Cloud ------------
+
+- Slide 8 : Definition du cloud
+- Slide 9 : Presentation AWS et EC2
+- Slide 10 : Mise en place, prix et communication EC2 (ssh)
+- Slide 11 : Presentation S3
+- Slide 12 : Communication S3 via boto3
+- Slide 13 : Big Data -> Probleme de Scalabilite
+- Slide 14 : Presentation de Hadoop et map reduce
+- Slide 15 : Fonctionnement Hadoop repartition
+- Slide 16 : De Hadoop à PySpark rdd, lazy function
+- Slide 17 : Organisation type des serveurs (worker, yarn, etc)
+
+
+------------ III ~ Chaine de Traitement des Images ------------
+
+- Slide 18 : Test en local et moins d'images pour reduire le cout EC2
+- Slide 19 : Recuperer les images depuis s3
+- Slide 20 : Preprocess pour avoir les descripteurs
+- Slide 21 : Reduction de dimensions
+- Slide 22 : sauvegarde sur le s3
+
+------------ Conclusions et Perspectives ------------
+
+- Slide 23 : Conclusions : reussite des objectifs mais temps long de communication
+- Slide 24 : Perspectives : 
+        - cluster plus puissant (serveurs plus puissants)
+        - aws -> databricks directement (ML Flow)
+        - cacher les ID amazon en amelioration
+        - passer en scrypt plutot que notebook
+        - faire un cluster en local sur le serveur et l'interroger avec des submits
+        - sauvegarde differente (un fichier, logiciel parquet, etc)
+        - utilisation CNN pre entrainee possible pour les images featuresli
+

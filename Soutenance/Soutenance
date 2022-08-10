@@ -1,0 +1,46 @@
+    slide 9 :
+- passer moins de temps a expliquer
+
+
+    slide 12 :
+- peu de temps
+
+
+    slide 14 :
+- trop de temps
+- savoir que boto3 ou s3a (alternative)
+
+
+    slide 15 :
+- peu de temps
+
+
+    slide 16 : 
+- preciser que c'est l'ancienne version de hadoop
+
+
+    slide 17 :
+- bien faire le distingo entre les deux systemes de traitement et de stockage
+
+
+    slide 18 : 
+- expliciter memoires vives et mortes, ce que c'est
+- bien preciser les differences entre transformation (lazy) et les actions
+
+
+    slide 23 : 
+- Expliciter pourquoi faire une reduction de dimension 
+- expliciter difference entre descripteurs et features
+- On se retrouve avec 48 attributs donc on va chercher a les diminuer pour faciliter les algorithmes de classification suivants
+
+revoir bien la mission, les competences a valider, reviser les configurations cluster, architecture big data, logiciel parquet, descripteurs, method ORB, etc
+revoir le temps
+
+
+
+
+
+Feedbacks : 
+
+
+
